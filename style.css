@@ -188,9 +188,13 @@ body {
     display: flex;
     justify-content: space-between;
     margin: 1rem 2rem;
-    font-size: 18px;
-    color: #454545;
+    font-size: 24px;
+    color: transparent;
     font-weight: 600;
+}
+.card-number{
+    text-shadow: -2px -2px 2px rgb(255 255 255), 1px 1px 1px rgb(0 0 0 / 53%), 2px -2px 4px rgb(255 255 255), -1px -1px 2px rgb(0 0 0 / 53%), -1px -1px 1px rgb(0 0 0 / 30%);
+    -webkit-text-stroke: 2px rgba(0,0,0,0.4);
 }
 .glass_card_front .valid {
     display: flex;
